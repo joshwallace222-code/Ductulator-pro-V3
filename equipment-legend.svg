@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <rect width="400" height="200" fill="#0B0F1A"/>
+  <!-- Title -->
+  <text x="200" y="24" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Duct Fitting Symbols</text>
+  <!-- Tee fitting -->
+  <rect x="40" y="50" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="80" y="68" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Tee</text>
+  <rect x="55" y="80" width="50" height="10" rx="1" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="80" y1="80" x2="80" y2="70" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="72" y1="72" x2="80" y2="70" x1="88" y1="72" stroke="#3B82F6" stroke-width="1"/>
+  <!-- Elbow -->
+  <rect x="160" y="50" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="68" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Elbow</text>
+  <path d="M185,90 L185,82 Q185,75 192,75 L205,75" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+  <!-- Wye -->
+  <rect x="280" y="50" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="320" y="68" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Wye</text>
+  <line x1="305" y1="90" x2="320" y2="75" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="335" y1="90" x2="320" y2="75" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="320" y1="75" x2="320" y2="68" stroke="#3B82F6" stroke-width="1.5"/>
+  <!-- Reducer -->
+  <rect x="40" y="125" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="80" y="143" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Reducer</text>
+  <polygon points="55,162 75,158 85,158 105,162 105,168 85,164 75,164 55,168" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+  <!-- Takeoff -->
+  <rect x="160" y="125" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="143" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Takeoff</text>
+  <rect x="180" y="160" width="40" height="8" rx="1" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="195" y1="160" x2="195" y2="152" stroke="#22C55E" stroke-width="1.5"/>
+  <polygon points="192,154 195,149 198,154" fill="#22C55E"/>
+  <!-- Damper -->
+  <rect x="280" y="125" width="80" height="55" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <text x="320" y="143" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Damper</text>
+  <rect x="300" y="160" width="40" height="8" rx="1" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="310" y1="160" x2="330" y2="168" stroke="#F59E0B" stroke-width="1.5"/>
+</svg>

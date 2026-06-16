@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#0B0F1A"/>
+  <!-- House outline -->
+  <rect x="100" y="80" width="400" height="280" rx="4" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="80,80 300,20 520,80" fill="none" stroke="#334155" stroke-width="2"/>
+  <!-- Internal rooms -->
+  <line x1="100" y1="180" x2="500" y2="180" stroke="#334155" stroke-width="1.5"/>
+  <line x1="100" y1="280" x2="500" y2="280" stroke="#334155" stroke-width="1.5"/>
+  <line x1="233" y1="80" x2="233" y2="360" stroke="#334155" stroke-width="1.5"/>
+  <line x1="367" y1="80" x2="367" y2="360" stroke="#334155" stroke-width="1.5"/>
+  <!-- Room labels -->
+  <text x="166" y="135" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Bedroom 1</text>
+  <text x="300" y="135" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Living</text>
+  <text x="433" y="135" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Kitchen</text>
+  <text x="166" y="235" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Bedroom 2</text>
+  <text x="300" y="235" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Hallway</text>
+  <text x="433" y="235" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Office</text>
+  <text x="166" y="325" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Bath</text>
+  <text x="300" y="325" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Utility</text>
+  <text x="433" y="325" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Return</text>
+  <!-- Duct lines (blue) -->
+  <!-- Main trunk horizontal -->
+  <rect x="100" y="225" width="400" height="6" fill="#3B82F6" opacity="0.7"/>
+  <!-- Branch up to rooms -->
+  <rect x="166" y="125" width="4" height="104" fill="#3B82F6" opacity="0.5"/>
+  <rect x="300" y="125" width="4" height="104" fill="#3B82F6" opacity="0.5"/>
+  <rect x="433" y="125" width="4" height="104" fill="#3B82F6" opacity="0.5"/>
+  <!-- Branch down to lower rooms -->
+  <rect x="166" y="228" width="4" height="104" fill="#3B82F6" opacity="0.5"/>
+  <rect x="433" y="228" width="4" height="104" fill="#3B82F6" opacity="0.5"/>
+  <!-- Return duct -->
+  <rect x="230" y="280" width="6" height="80" fill="#06B6D4" opacity="0.5"/>
+  <rect x="233" y="310" width="200" height="4" fill="#06B6D4" opacity="0.4"/>
+  <!-- Air handler unit -->
+  <rect x="290" y="335" width="40" height="22" rx="2" fill="#3B82F6" opacity="0.8"/>
+  <text x="310" y="350" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="8" font-weight="600">AHU</text>
+  <!-- Supply arrows -->
+  <polygon points="164,115 168,123 160,123" fill="#3B82F6" opacity="0.8"/>
+  <polygon points="298,115 302,123 294,123" fill="#3B82F6" opacity="0.8"/>
+  <polygon points="431,115 435,123 427,123" fill="#3B82F6" opacity="0.8"/>
+  <polygon points="164,228 168,220 160,220" fill="#3B82F6" opacity="0.8"/>
+  <!-- Return arrows -->
+  <polygon points="300,285 304,293 296,293" fill="#06B6D4" opacity="0.7"/>
+</svg>
